@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<style>
+			.factandboxContainer {
+				display: flex;
+				justify-content: space-between;
+				width: 80%;
+				justify-content: center;
+			}
+
+			/* Extra small devices (phones, 600px and down) */
+			@media (max-width: 600px) {
+				.factandboxContainer {
+					display: grid;
+					grid-template-columns: auto;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+
+		<div class="factandboxContainer">
+			<!--i add this div for big screens-->
+			<div class="rover-facts-container">
+				<div class="image-and-text">
+					<img class="small-img" src="https://i.ibb.co/jJGCg6c/suitcase.png" alt="Suitcase image" />
+					<div class="twotext">
+						<h3>Dog Boarding</h3>
+						<p>Perfect if you need overnight pet care.</p>
+					</div>
+				</div>
+				<div class="image-and-text">
+					<img class="small-img" src="https://i.ibb.co/S6KpBBZ/house.png" alt="House image" />
+					<div class="twotext">
+						<h3>House Sitting</h3>
+						<p>Great if you need overnight pet or house-sitting services.</p>
+					</div>
+				</div>
+				<div class="image-and-text">
+					<img class="small-img" src="https://i.ibb.co/HpMNXjZ/paws.png" alt="Paws image" />
+					<div class="twotext">
+						<h3>Dog walking</h3>
+						<p>Whenever your dog needs a walk.</p>
+					</div>
+				</div>
+				<div class="image-and-text">
+					<img class="small-img" src="https://i.ibb.co/NyQN7dy/sun.png" alt="Sun image" />
+					<div class="twotext">
+						<h3>Doggy Day Care</h3>
+						<p>Daytime pet care in your sitter’s dog-friendly home.</p>
+					</div>
+				</div>
+				<div class="image-and-text">
+					<img class="small-img" src="https://i.ibb.co/CtLTLmX/food.png" alt="Food image" />
+					<div class="twotext">
+						<h3>Drop-In Visits</h3>
+						<p>For check-ins and play dates.</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-container">
+				<div class="card" style="height: 50vh">
+					<div></div>
+
+					<div class="card-header d-flex" style="justify-content: center; gap: 10px; align-items: center">
+						<img src="https://i.ibb.co/4ZrkTkt/shield.png" style="width: 30px" alt="shield icon" />
+						<p>Rover accepts less than <span class="bold">20%</span> of potential sitters</p>
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Special title treatment</h5>
+						<div class="card-text">
+							<ul class="rover-facts" style="list-style-type: none">
+								<li>
+									<span class="checkmark">&#10003;</span>&nbsp; All new sitters pass a basic
+									background check
+								</li>
+								<li>
+									<span class="checkmark">&#10003;</span>&nbsp; All sitters provide a detailed profile
+									and personal information
+								</li>
+								<li>
+									<span class="checkmark">&#10003;</span>&nbsp; All sitters are approved by our team
+									of sitter specialists
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="btn btn-primary" style="width: 100%; background-color: #14a96d"
+							>Book your next Rover sitter</a
+						>
+					</div>
+				</div>
+				<!-- <div class="text-under-card" style="width: 40vw;">
+              <p class="rover-protections">All services booked on Rover are backed by the Rover Guarantee, 24/7 Support, Photo Updates, and our <a href="#">Reservation Protection</a>.</p>
+            </div> -->
+			</div>
+		</div>
+	</body>
+</html>
