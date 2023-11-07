@@ -8,6 +8,7 @@ let boldText2 = document.getElementById('boldText2');
 let boldText3 = document.getElementById('boldText3');
 let smallP1 = document.getElementById('smallP1');
 let smallP2 = document.getElementById('smallP2');
+let imgTOcat = document.getElementById('imgTOcat');
 clickedImg.addEventListener('click', function changeToCat() {
 	// headImg.style.backgroundImage =
 	// 	"url ('https://media.cnn.com/api/v1/images/stellar/prod/221010113806-01-cat-love-affection-stock.jpg?c=16x9&q=h_720,w_1280,c_fill')";
@@ -21,4 +22,5 @@ clickedImg.addEventListener('click', function changeToCat() {
 	boldText3.innerHTML = 'Catty Day Care';
 	smallP1.innerHTML = 'Whenever your cat needs a walk.';
 	smallP2.innerHTML = 'Daytime pet care in your sitter’s cat-friendly home.';
+	imgTOcat.src = 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Girl_and_cat.jpg';
 });

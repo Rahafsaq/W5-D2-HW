@@ -13,6 +13,34 @@
 	}
 	.rover-hero-container {
 		width: 100%;
+		height: 50vh;
+		background-image: url('https://images.wagwalkingweb.com/media/daily_wag/sense_guides/hero/1534430401.62/how-can-dogs-make-us-happy.jpg');
+		background-size: cover;
+		color: rgb(54, 45, 34);
+	}
+	.rover-hp-container {
+		width: 100%;
+	}
+}
+
+@media(max-width: 800px)and  (max-width: 900px) {
+	.factandboxContainer {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		justify-items: center;
+		justify-content: space-around;
+	}
+	.rover-mobile-hero-container {
+		display: grid;
+		grid-template-columns: auto;
+		gap: 10px;
+	}
+	.rover-hero-container {
+		width: 100%;
+		height: 50vh;
+		background-image: url('https://images.wagwalkingweb.com/media/daily_wag/sense_guides/hero/1534430401.62/how-can-dogs-make-us-happy.jpg');
+		background-size: cover;
+		color: rgb(54, 45, 34);
 	}
 	.rover-hp-container {
 		width: 100%;
@@ -21,7 +49,7 @@
 
 .rover-hero-container {
 	width: 100%;
-	height: 50vh;
+	height: 70vh;
 	background-image: url('https://images.wagwalkingweb.com/media/daily_wag/sense_guides/hero/1534430401.62/how-can-dogs-make-us-happy.jpg');
 	background-size: cover;
 	color: rgb(54, 45, 34);
@@ -90,7 +118,7 @@
 
 .last-img {
 	width: 100%;
-	height: 60vh;
+	height: 80vh;
 	background-color: burlywood;
 }
 .myquote {
